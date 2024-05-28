@@ -7,10 +7,13 @@ import org.springframework.web.bind.annotation.RestController;
 public class SampleController {
 	@GetMapping("/get")
 	public String Sample() {
-		return "はじめてのSpring\n"
-				+ "kawanoです。";
+		int sum = getSum(2, 3);
+		String message = "はじめてのSpring<br>"+ "kawanoです。" + sum;
+		return message;
 	}
-	
+	public int getSum(int a, int b) {
+		return a + b;
+	}
 }
 //意味わかんねーよ
 
