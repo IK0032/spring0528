@@ -10,4 +10,5 @@ public class SampleController {
 	public String Sample() {
 		return "はじめてのSpring";
 	}
+	
 }
