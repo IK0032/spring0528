@@ -8,7 +8,12 @@ public class SampleController {
 	@GetMapping("/get")
 	public String Sample() {
 		int sum = getSum(2, 3);
+		
 		String message = "はじめてのSpring<br>"+ "kawanoです。" + sum;
+		
+		for (int i=0;i<5;i++) {
+			message+="ごめんなさい<br>";
+		}
 		return message;
 	}
 	public int getSum(int a, int b) {
