@@ -9,7 +9,7 @@ public class SampleController {
 	public String Sample() {
 		int sum = getSum(2, 3);
 		
-		String message = "はじめてのSpring<br>"+ "kawanoです。" + sum;
+		String message = "はじめてのSpring<br>"+ "kawanoです。" + sum+"<br>";
 		
 		for (int i=0;i<5;i++) {
 			message+="ごめんなさい<br>";
