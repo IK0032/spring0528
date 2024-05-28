@@ -12,7 +12,7 @@ public class SampleController {
 		return message;
 	}
 	public int getSum(int a, int b) {
-		return a + b;
+		return a + b + 100;
 	}
 }
 //意味わかんねーよ
